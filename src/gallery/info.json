@@ -1,0 +1,98 @@
+{
+	helloworld: {
+		root: "gallery",
+		name: "helloworld",
+		tag: "",
+		type: "",
+		description: "组件写法示例",
+		versions: {
+			0.1.0: [
+				"vhello.js", "mhello.js"]
+		},
+		stable: []
+	},
+	breadcrumb: {
+		root: "gallery",
+		name: "breadcrumb",
+		tag: "",
+		type: "",
+		description: "组件写法示例",
+		versions: {
+			0.1.0: [
+				"breadcrumb.js"]
+		},
+		stable: []
+	},
+	calendar: {
+		root: "gallery",
+		name: "calendar",
+		tag: "",
+		type: "",
+		description: "组件写法示例",
+		versions: {
+			0.1.0: [
+				"calendar.js"]
+		},
+		stable: []
+	},
+	colorpicker: {
+		root: "gallery",
+		name: "colorpicker",
+		tag: "",
+		type: "",
+		description: "组件写法示例",
+		versions: {
+			0.1.0: [
+				"colorpicker.js"]
+		},
+		stable: []
+	},
+	datepicker: {
+		root: "gallery",
+		name: "datepicker",
+		tag: "",
+		type: "",
+		description: "组件写法示例",
+		versions: {
+			0.1.0: [
+				"datepicker.js"]
+		},
+		stable: []
+	},
+	dropdown: {
+		root: "gallery",
+		name: "dropdown",
+		tag: "",
+		type: "",
+		description: "组件写法示例",
+		versions: {
+			0.1.0: [
+				"dropdown.js"]
+		},
+		stable: []
+	},
+	pagination: {
+		root: "gallery",
+		name: "pagination",
+		tag: "",
+		type: "",
+		description: "组件写法示例",
+		versions: {
+			0.1.0: [
+				"pagination.js"]
+		},
+		stable: []
+	},
+	slider: {
+		root: "gallery",
+		name: "slider",
+		tag: "",
+		type: "",
+		description: "组件写法示例",
+		versions: {
+			0.1.0: [
+				"slider.js"]
+		},
+		stable: []
+	}
+}

@@ -1,0 +1,62 @@
+.breadcrumb {}
+.breadcrumb li.item {
+  padding: 0 10px;
+  height: 25px;
+  line-height: 25px;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+}
+.breadcrumb li.item a:link,
+.breadcrumb li.item a:visited {
+  color: #666;
+  text-decoration: none;
+}
+.breadcrumb li.item.first,
+.breadcrumb li.item:first-child {
+  padding-left: 0px;
+}
+.breadcrumb li.item.last,
+.breadcrumb li.item:last-child {
+  padding-right: 0px;
+}
+.breadcrumb li.item.last,
+.breadcrumb li.item:last-child,
+.breadcrumb li.item.last a:link,
+.breadcrumb li.item:last-child a:link,
+.breadcrumb li.item.last a:visited,
+.breadcrumb li.item:last-child a:visited {
+  color: #999;
+}
+.breadcrumb li.split {
+  padding: 0;
+}
+.breadcrumb li.split .iconfont {
+  font-size: 8px;
+  display: block;
+}
+.breadcrumb li.item-dropdown {
+  padding: 0 6px;
+}
+.breadcrumb li.item-dropdown a:link,
+.breadcrumb li.item-dropdown a:visited {
+  color: #666;
+  text-decoration: none;
+}
+.breadcrumb li.item-dropdown .dropdown {
+  float: left;
+}
+.breadcrumb li.item-dropdown .dropdown-hd {
+  *display: inline-block;
+}
+.breadcrumb {
+  *zoom: 1;
+}
+.breadcrumb:before,
+.breadcrumb:after {
+  display: table;
+  content: "";
+}
+.breadcrumb:after {
+  clear: both;
+}

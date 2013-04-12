@@ -1,0 +1,107 @@
+.dropdown {
+  position: relative;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #bbb;
+  height: 23px;
+  line-height: 23px;
+  -webkit-text-size-adjust: none;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.dropdown-head {
+  color: #333;
+  padding: 0 10px 0 10px;
+  background-color: #f4f4f4;
+  background-image: -moz-linear-gradient(top, #f8f8f8, #eeeeee);
+  background-image: -ms-linear-gradient(top, #f8f8f8, #eeeeee);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#eeeeee));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #eeeeee);
+  background-image: -o-linear-gradient(top, #f8f8f8, #eeeeee);
+  background-image: linear-gradient(top, #f8f8f8, #eeeeee);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#eeeeee', GradientType=0);
+  cursor: default;
+  *display: inline;
+  *zoom: 1;
+}
+
+.dropdown-head .dropdown-text {
+
+}
+.dropdown-head .icon-arrow-down {
+  font-size: 8px;
+  position: absolute;
+  right: 8px;
+  color: #999999;
+}
+
+.dropdown .dropdown-list {
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: -1px;
+  border: 1px solid #ddd;
+  background: #fff;
+  z-index: 999999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+.dropdown-list .dropdown-item {
+  position: relative;
+  height: 25px;
+  line-height: 25px;
+  color: #333;
+  padding: 0 10px 0 10px;
+  cursor: default;
+  /*overflow: hidden;*/
+}
+.dropdown-list .dropdown-item-hover {
+  background-color: #488fcd;
+  color: #fff;
+}
+.dropdown-list .dropdown-item .icon-ok {
+  font-size: 9px;
+  position: absolute;
+  right: 8px;
+  line-height: 25px;
+  color: #999;
+  clear: both;
+  visibility: hidden;
+}
+.dropdown-list .dropdown-item-hover .icon-ok {
+  color: #fff;
+}
+
+.dropdown-list .dropdown-item-selected {}
+.dropdown-list .dropdown-item-selected .icon-ok {
+  visibility: visible;
+}
+
+.dropdown-noicon {}
+.dropdown-noicon .icon-arrow-down {
+  display: none;
+}
+
+.dropdown-noborder {
+  border: none;
+  background: none;
+  filter: none;
+}
+.dropdown-noborder .dropdown-head {
+  border: none;
+  background: none;
+  filter: none;
+}
